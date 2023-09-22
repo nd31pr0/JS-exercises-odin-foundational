@@ -1,0 +1,11 @@
+{
+  "name": "02_repeatstring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "repeatString.js",
+  "scripts": {
+    "test": "npm test repeatString.spec.js"
+  },
+  "author": "nd31pr0",
+  "license": "ISC"
+}
