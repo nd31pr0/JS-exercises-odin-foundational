@@ -6,13 +6,10 @@
 
 const palindromes = function (text) {
     const cleanText = text.replace(/[^\w\s\']|_/g, "")
-                          .replace(/\s+/g, "").toLowerCase();
-                          
+                          .replace(/\s+/g, "").toLowerCase();     
     // To reverse string, we need to separate the xters, reverse and then join again                      
     const revText = cleanText.split("").reverse().join("");
-    return (cleanText === revText) ? true : false;
-    //console.log(result);
-    // return result;               
+    return (cleanText === revText) ? true : false;             
 };
 
 // Do not edit below this line
